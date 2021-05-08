@@ -1,31 +1,9 @@
-# yolov5.tensorflow
-
-#### 介绍
-{**以下是码云企业私有云说明，您可以替换此简介**
-Gitee Premium 是码云企业级私有化部署方案，提供代码版本管理、项目管理、需求管理、缺陷管理、文档协作等功能，支持与企业内部 LDAP、项目管理、测试、部署、容器等平台的对接。}
-
-#### 软件架构
-软件架构说明
+# 把YoloV5(目前支持v4.0)转换成tensorflow格式
+1. 填写对应的运行 `save_yolov5_weight.py`, 当前路径下会生成`params.dict`, `meta.dict`
+2. 运行`yolov5_convert.py`, 当前路径下会生成一个`yolov5.pb`文件和`result.jpg`(输入名字`input:0`，输出名字`output:0`)
 
 
-#### 安装教程
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### 使用说明
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-
-#### 参与贡献
-
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
-
+# Ref
+https://github.com/facerless/yolov5-tensorflow
 
